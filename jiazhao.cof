@@ -1,0 +1,136 @@
+// All content is only for testing and learning. If there is any infringement of rights, please contact us to delete it.
+
+# Fotoo（微信小程序）
+https://fotooapi.pfotoo.com/fotooUser/vipInfo url response-body vipType":0 response-body vipType":1
+
+# 课堂派（微信小程序）
+^https:\/\/openapiv5\.ketangpai\.com\/* url script-response-body https://raw.githubusercontent.com/ooyq/QuanX/main/Crack/Script/KeTangPai.js
+
+# 接龙管家（微信小程序）
+^https?:\/\/h-api\.jielong\.co\/api\/User\/(CurrentUser|UserInfo)$ https://raw.githubusercontent.com/eooyo/QuanX/main/Crack/Script/JieLongGuanJia.js
+
+# Soul
+^https:\/\/api-chat\.soulapp\.cn\/chat\/limitInfo url response-body limit":true response-body limit":false
+
+# Codecademy Go
+^https?:\/\/www\.codecademy\.com\/users\/me* url response-body is_pro":false response-body is_pro":true
+
+# 抓阄抽签（微信小程序）
+^https?:\/\/nx\.zxiyi\.cn\/app\/index\.php* url response-body is_win":1 response-body is_win":0
+
+# 群抽签抓阄（QQ小程序）
+^https?:\/\/drawlots\.kaolalicai\.cn\/api\/v1\/drawLots\/joinEx* url response-body isSelect":true response-body isSelect":false
+
+# Flomo
+^https:\/\/flomoapp\.com\/.* url script-response-body https://raw.githubusercontent.com/eooyo/QuanX/main/Crack/Script/Flomo.js
+
+# 英语四六级
+^https?:\/\/www\.mikaoshi\.com\/(user/(getVipInfo|login))|myclass\/.* url script-response-body https://raw.githubusercontent.com/eooyo/QuanX/main/Crack/Script/CET.js
+^https?:\/\/www\.mikaoshi\.com\/ad\/getAll* url response-body (screen|popad)":\[.*\] response-body (screen|popad)":[]
+
+# 驾校一点通（9.1.0/9.3.1）
+^https?:\/\/vipapi\.jxedt\.com\/vip\/check url script-response-body https://raw.githubusercontent.com/eooyo/QuanX/main/Crack/Script/Speed.js
+^https:\/\/op\.ksedt\.com\/\/jxedtLive\/ url response-body boughtState":"0"  response-body boughtState":"1"
+
+# Xmind
+^https?:\/\/.*\.xmind\..*\/_res\/devices url script-response-body https://raw.githubusercontent.com/eooyo/QuanX/main/Crack/Script/Xmind.js
+
+# 驾考宝典
+^https:\/\/jiakao-misc\.kakamobi\.cn\/api\/open\/* url script-response-body  https://raw.githubusercontent.com/eooyo/QuanX/main/Crack/Script/Drive.js
+
+# 英语趣配音
+^https:\/\/apis40\.qupeiyin\.com\/.* url script-response-body https://raw.githubusercontent.com/eooyo/QuanX/main/Crack/Script/EnglishDub.js
+
+# 掘金
+^https:\/\/api\.juejin\.cn\/booklet_api\/v\d+\/booklet\/* url response-body is_buy":false response-body is_buy":true
+
+# 目标地图
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/eooyo/QuanX/main/Crack/Script/TargetMap.js
+
+# 考途
+^https:\/\/(api-service|m-ad)\.tutusouti\.com\/appServiceApi\/vip\/newUserPayVipData* url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/KaoTu.js
+^https:\/\/api-service\.tutusouti\.com\/appServiceApi\/video\/videoDetail$ url response-body playAll":false response-body playAll":true
+
+#  AiFace - Ai换脸秀
+^https:\/\/changeclothes\.szsszykj\.com\/interface\/GetIosVip.php url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/AiFace.js
+
+# 百度网盘
+^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/BaiduDrive.js
+
+# BaiDuLibrary - 百度文库
+^https:\/\/appwk\.baidu\.com\/naapi\/user\/getinfo url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/BaiduLibrary.js
+
+# Dream by WOMBO-AI Art Tool
+^https:\/\/paint\.api\.wombo\.ai:443\/api\/premium\/sync\/$ url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/Dream.js
+
+# Drops
+^https:\/\/api-prod\.languagedrops\.com\/syncPurchasesV4$ url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/Drops.js
+
+# IDPhoto - 最美证件照
+^https:\/\/fufei\.fengyunsoft\.cn\/api\/client\/info url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/IDPhoto.js
+
+# 可拍 - Al换脸变装视频
+http:\/\/fxshot-api\.afunapp\.com\/order_api\/apple_query url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/KePai.js
+
+# KuWoMusic - 酷我音乐
+^https?:\/\/.*(kuwo|lrts).*(music\.pay\?ne|\/a\.p|v\d\/api\/(user\/in|pay\/vi)|\w{3}\/v\d\/user\/vi|\w{3}\/spi\/ms|\w{3}\/v\d\/the|\w{3}\/enc\/use) url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/KuwoMusic.js
+^https?:\/\/.*(kuwo|lrts).*(music\.pay\?ui) url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/KuwoMusic.js
+
+#LightRoom
+^https:\/\/photos\.adobe\.io\/v2\/accounts\/* url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/LightRoom.js
+
+# Picsew
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/Picsew.js
+
+# PuTongHuaTest - 普通话测试
+^https:\/\/api\.hcreator\.cn\/wapsPay\/Login\/pthTest\/v3\/getInfo\.do url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/PuTongHuaTest.js
+^https:\/\/api\.hcreator\.cn\/wapsPay\/pthTestCourseV2\/listCourseJoin\.do url response-body joinType":false response-body joinType":true
+
+# MeiTu - 美图秀秀
+^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/MeiTu.js
+
+# Mimo
+^https:\/\/api\.getmimo\.com\/v1\/subscriptions$ url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/Mimo.js
+
+# Mubu - 幕布
+^https:\/\/api2.mubu.com\/v3\/api\/user/* url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/Mubu.js
+
+# MuscleBooster
+^https:\/\/menscoach-api\.asqq\.io\/prod\/user$ url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/MuscleBooster.js 
+
+# Nicegram
+https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\d{5,10} url echo-response text/json echo-response https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/Nicegram.js
+
+# ShadowLink
+#^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/ShadowLink.js
+
+# 搜图神器
+^https?:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account\/token$ url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/SouTu.js
+
+# TestFlight
+^https?:\/\/testflight\.apple\.com\/(.+)(\?.*)?$ url script-request-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/TestFlight.request.js
+^https?:\/\/testflight\.apple\.com\/(.+)(\?.*)?$ url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/TestFlight.response.js
+
+# XiaoYuanSouTi - 小猿搜题
+^https:\/\/xyst\.yuanfudao\.com\/solar-vip\/(api|iphone)\/users/* url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/XiaoYuanSouTi.js
+
+# WeChatUrl - 微信链接跳转
+^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/WeChatUrl.js
+
+# WPS
+^https?:\/\/account\.wps\.cn\/api\/users url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/WPS.js
+
+# YouDaoDictionary - 网易有道词典
+^https:\/\/dict\.youdao\.com\/vip\/user\/status url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/YoudaoDictionary.js
+
+# 简讯
+^https?:\/\/api\.tipsoon\.com\/api\/v1\/top\/ad url reject-img
+^https:\/\/api\.tipsoon\.com\/api\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/JianXun.js
+
+# 小打卡 （微信小程序）
+^https?:\/\/uranus\.sharedaka\.com\/api\/v3\/user\/info\/get url script-response-body https://raw.githubusercontent.com/eooyo/quanx/main/Crack/Script/XiaoDaKa.js
+
+# SpotifyPro
+^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+
+hostname = fotooapi.pfotoo.com, openapiv5.ketangpai.com, op.ksedt.com, api-chat.soulapp.cn, www.codecademy.com, nx.zxiyi.cn, drawlots.kaolalicai.cn, flomoapp.com, www.mikaoshi.com, vipapi.jxedt.com, *.xmind.*, *.kakamobi.cn, pan.baidu.com, apis40.qupeiyin.com, api.juejin.cn, api.revenuecat.com, *.tutusouti.com, wallpaper.soutushenqi.com, paint.api.wombo.ai, buy.itunes.apple.com, changeclothes.szsszykj.com, appwk.baidu.com, i0.hdslb.com, api-prod.languagedrops.com, photos.adobe.io, createpdf.acrobat.com, api.getmimo.com, api2.mubu.com, menscoach-api.asqq.io, fufei.fengyunsoft.cn, xyst.yuanfudao.com, dict.youdao.com, api.hcreator.cn, api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, account.wps.cn, spclient.wg.spotify.com, *.kuwo.*, *.lrts.*, weixin110.qq.com, security.wechat.com, restore-access.indream.app, testflight.apple.com, fxshot-api.afunapp.com, api.tipsoon.com, uranus.sharedaka.com
